@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(rgba(16,20,27,0),rgba(16,20,27,0) 45%,#10141b 90%), url("assets/WallpaperDog-4921.jpg");
+    background-image: linear-gradient(rgba(16,20,27,0),rgba(16,20,27,0) 5%,#10141b 60%), url("assets/WallpaperDog-4921.jpg");
     background-color: #10141b;
     background-repeat: no-repeat;
     background-size: contain;
@@ -7,6 +7,8 @@ body {
 
 .flex-container {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
   
 /* nav */
@@ -34,7 +36,7 @@ ul {
   
   .logoNav {
       
-      margin-left: 48%;
+      margin-left: 30%;
       padding-bottom: 5px;
   }
 
@@ -88,7 +90,7 @@ button:hover {
 }
 
 .mainLogo {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 27%;
     width: 45%;
     height: auto;
@@ -96,9 +98,10 @@ button:hover {
 
 .headingContent{
     font-family: 'Bluu Next', sans-serif;
-    font-size: 65px;
+    font-size: 60px;
     color: white;
     text-align: center;
+    padding: 0px;
     
 }
 
@@ -124,3 +127,73 @@ button:hover {
     margin-top: 3px;
     
   }
+
+  img {
+      position: relative;
+      text-align: center;
+      z-index: 1;
+      width: 300px;
+      height: auto;
+      padding: 15px 0px 0px 40px;
+
+  }
+  .smallerHeader{
+      position: relative;
+    z-index: 1;
+    font-family: 'Bluu Next', sans-serif;
+    font-size: 18px;
+    color: white;
+    bottom: 70px;
+    padding-left:60px;
+  }
+
+  .smallerContent{
+    position: relative;
+    z-index: 1;
+    font-family: 'Bluu Next', sans-serif;
+    font-size: 40px;
+    color: white;
+    bottom: 70px;
+    padding-left:60px;
+    padding-top: 15px;
+  }
+
+  .line {
+        border-style: solid;
+      border-width: 0px 0px 1px 0px;
+      border-color: grey;
+  }
+  .houseHeader{
+    position: relative;
+  z-index: 1;
+  font-family: 'Bluu Next', sans-serif;
+  font-size: 18px;
+  color: white;
+  top: 40px;
+  right: 600px;
+  padding:5px;
+  text-align: right;
+}
+
+.houseLgContent{
+    position: relative;
+    z-index: 1;
+    font-family: 'Bluu Next', sans-serif;
+    font-size: 40px;
+    color: white;
+    top: 120px;
+    right: 680px;
+    text-align: right;
+}
+
+.houseSmContent{
+    position: relative;
+    z-index: 1;
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 18px;
+    color: white;
+    text-align: right;
+    top: 550px;
+    right: 850px;
+}
+
