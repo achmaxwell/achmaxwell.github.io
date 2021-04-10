@@ -1,0 +1,126 @@
+body {
+    background-image: linear-gradient(rgba(16,20,27,0),rgba(16,20,27,0) 45%,#10141b 90%), url("assets/WallpaperDog-4921.jpg");
+    background-color: #10141b;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.flex-container {
+    display: flex;
+  }
+  
+/* nav */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 14px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .logoNav {
+      
+      margin-left: 48%;
+      padding-bottom: 5px;
+  }
+
+  .sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  #logo {
+      margin: 3%;
+      height: 50px;
+      width: auto;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    text-decoration: underline;
+    text-decoration-color: #6b63b5;
+  }
+
+
+  /* button */
+  .buttonContainer {
+      float: left;
+      margin-left: 50%;
+  }
+  .button { 
+  background-color: #6b63b5; 
+  border: none;
+  color: white;
+  padding: 6px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-left: 300px;
+  margin-top: 19px;
+  font-family: 'Sofia Pro', sans-serif;
+  
+}
+
+button:hover {
+    opacity: 0.6
+}
+
+#nav {
+    border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: grey;
+}
+
+.mainLogo {
+    margin-top: 20px;
+    margin-left: 27%;
+    width: 45%;
+    height: auto;
+}
+
+.headingContent{
+    font-family: 'Bluu Next', sans-serif;
+    font-size: 65px;
+    color: white;
+    text-align: center;
+    
+}
+
+.smallContent{
+    padding: 0 25% 10% 25%;
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.button2 { 
+    background-color: #6b63b5; 
+    border: none;
+    color: white;
+    padding: 20px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 30px;
+    font-size: 18px;
+    font-family: 'Sofia Pro', sans-serif;
+    margin-top: 3px;
+    
+  }
